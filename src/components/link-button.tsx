@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import { ShinyButton } from "./magicui/shiny-button";
 import { BorderBeam } from "./magicui/border-beam";
 
 interface LinkButtonProps {
@@ -23,7 +22,7 @@ export default function LinkButton({
       <BorderBeam
         duration={10}
         delay={randomDelay1}
-        size={130}
+        size={120}
         colorFrom="#3b82f6"
       />
       <a href={url} className={`flex items-center gap-2 px-4 py-2`}>
